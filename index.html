@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soundboard</title>
+    <style>
+        body {
+            text-align: center;
+            background-color: #222;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+        button {
+            margin: 10px;
+            padding: 20px 40px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #444;
+            border: none;
+            color: white;
+        }
+        button:hover {
+            background-color: #666;
+        }
+    </style>
+</head>
+<body>
+    <h1>My Soundboard</h1>
+    <button onclick="playSound('sound1')">Play Sound 1</button>
+    <button onclick="playSound('sound2')">Play Sound 2</button>
+    <button onclick="playSound('sound3')">Play Sound 3</button>
+
+    <audio id="sound1" src="URL_TO_YOUR_MP3_1" preload="auto"></audio>
+    <audio id="sound2" src="URL_TO_YOUR_MP3_2" preload="auto"></audio>
+    <audio id="sound3"
